@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  app:
+    cap_add:
+     - NETADMIN
+     image: <username>/<image-name>
+     command: sh -c "service ufw restart && service vsftpd restart && service ssh restart && tail -f /dev/null"
