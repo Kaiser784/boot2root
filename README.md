@@ -1,5 +1,5 @@
 # boot2root
-A very basic boot2root machine in docker
+A very basic boot2root machine in docker. If you want to make your own and want to know how I made this one you can read about it [here](https://blog.chewnot2chew.com/making-a-boot2root-machine-with-docker).
 
 ## How to use it
 
