@@ -1,7 +1,6 @@
-version: '2'
-
 services:
-	app:
-		cap_add:
-		- NET_ADMIN
+  app:
+    cap_add:
+    - NET_ADMIN
     image: chewnot2chew/boot2root
+    command: sh -c "service ufw restart && service vsftpd restart && service ssh restart && tail -f /dev/null"
